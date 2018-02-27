@@ -21,7 +21,7 @@ spring:
         encrypt.enabled: false
         git:
           uri: https://github.com/filipveschool/configrepo/
-          searchPaths: licensingservice,organizationservice,specialroutesservice,zuulservice,authenticationservice
+          searchPaths: licensingservice,organizationservice,specialroutesservice,zuulservice,authenticationservice,notificationservice
           username: native-cloud-apps
           password: 0ffended
 

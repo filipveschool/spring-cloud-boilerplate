@@ -1,6 +1,9 @@
 spring:
   application:
-    name: notification-service
+    name: notificationservice
   cloud:
-    confg:
-      uri:
+    config:
+      enabled: true
+  profiles:
+    active:
+      default
