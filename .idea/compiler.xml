@@ -11,6 +11,7 @@
         <module name="configurationserver" />
         <module name="eurekaserver" />
         <module name="licensingservice" />
+        <module name="notification-service" />
         <module name="organizationservice" />
         <module name="zuulserver" />
       </profile>
@@ -21,6 +22,7 @@
       <module name="configurationserver" target="1.8" />
       <module name="eurekaserver" target="1.8" />
       <module name="licensingservice" target="1.8" />
+      <module name="notification-service" target="1.8" />
       <module name="organizationservice" target="1.8" />
       <module name="zuulserver" target="1.8" />
     </bytecodeTargetLevel>
