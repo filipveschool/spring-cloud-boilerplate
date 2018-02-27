@@ -20,6 +20,7 @@ spring:
       server:
         encrypt.enabled: false
         git:
+          #Tells Spring Cloud Config to use Git as a backend repository
           uri: https://github.com/filipveschool/configrepo/
           searchPaths: licensingservice,organizationservice,specialroutesservice,zuulservice,authenticationservice,notificationservice
           username: native-cloud-apps

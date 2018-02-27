@@ -15,6 +15,7 @@ security:
     resource:
       userInfoUri: http://localhost:8901/auth/user
 
+
 eureka:
   instance:
     prefer-ip-address: true
@@ -30,4 +31,7 @@ logging:
     com.netflix: warn
     org.springframework.web: warn
     com.filip: debug
+
+server:
+  port: 8082
 

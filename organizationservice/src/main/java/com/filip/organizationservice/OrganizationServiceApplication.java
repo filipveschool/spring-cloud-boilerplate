@@ -16,7 +16,7 @@ import javax.servlet.Filter;
 @EnableEurekaClient
 @EnableCircuitBreaker
 @EnableBinding(Source.class)
-@EnableResourceServer
+@EnableResourceServer // Is Used to tell your microservice it's a protected resource
 public class OrganizationServiceApplication {
 
     @Bean
