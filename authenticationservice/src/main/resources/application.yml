@@ -23,7 +23,7 @@ server:
 spring:
   jpa:
     show-sql: true
-    hibernate:
+    #hibernate:
       #ddl-auto: update
     properties:
       hibernate:
