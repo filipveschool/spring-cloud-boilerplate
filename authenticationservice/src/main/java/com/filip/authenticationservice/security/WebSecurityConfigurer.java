@@ -27,26 +27,40 @@ public class WebSecurityConfigurer extends WebSecurityConfigurerAdapter {
         return super.userDetailsServiceBean();
     }
 
+    // Spring security 5 problem with passwordencoder
+    // https://www.harinathk.com/spring/no-passwordencoder-mapped-id-null/
+    @SuppressWarnings("deprecation")
+    @Bean
+    public static NoOpPasswordEncoder passwordEncoder() {
+        return (NoOpPasswordEncoder) NoOpPasswordEncoder.getInstance();
+    }
+
+    // Spring security 5 problem with passwordencoder
+    // https://www.harinathk.com/spring/no-passwordencoder-mapped-id-null/
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 
         //auth.inMemoryAuthentication().passwordEncoder(PasswordEncoderFactories.createDelegatingPasswordEncoder());
 
-        PasswordEncoder passwordEncoder = PasswordEncoderFactories.createDelegatingPasswordEncoder();
+        //PasswordEncoder passwordEncoder = PasswordEncoderFactories.createDelegatingPasswordEncoder();
 
         auth
                 .inMemoryAuthentication()
                 //.withUser("john.carnell").password("password1").roles("USER")
-                .withUser("john.carnell").password(passwordEncoder.encode("password1")).roles("USER")
+                .withUser("john.carnell").password("password1").roles("USER")
+                //.and()
+                //.withUser("john.carnell").password(passwordEncoder.encode("password1")).roles("USER")
                 .and()
-                //.withUser("william.woodward").password("password2").roles("USER", "ADMIN");
-                .withUser("william.woodward").password(passwordEncoder.encode("password2")).roles("USER", "ADMIN");
+                .withUser("william.woodward").password("password2").roles("USER", "ADMIN");
+                //.withUser("william.woodward").password("password2").roles("USER", "ADMIN")
+                //.and()
+                //.withUser("william.woodward").password(passwordEncoder.encode("password2")).roles("USER", "ADMIN");
 
 
     }
 
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return PasswordEncoderFactories.createDelegatingPasswordEncoder();
-    }
+    //@Bean
+    //public PasswordEncoder passwordEncoder() {
+      //  return PasswordEncoderFactories.createDelegatingPasswordEncoder();
+    //}
 }
