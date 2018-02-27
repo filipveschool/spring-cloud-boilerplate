@@ -7,3 +7,6 @@ spring:
   profiles:
     active:
       default
+eureka:
+  client:
+    enabled: false
