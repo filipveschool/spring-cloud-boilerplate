@@ -6,6 +6,7 @@ import com.filip.organizationservice.repository.OrganizationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.UUID;
 
 @Service
@@ -35,6 +36,11 @@ public class OrganizationService {
     public void deleteOrganization(Organization organization) {
         organizationRepository.delete(organization);
         simpleSourceBean.publishOrgChange("DELETE", organization.getId());
+    }
+
+    public List<Organization> getAllOrganizations(){
+        //return organizationRepository.getAllOrganizations();
+        return organizationRepository.findAll();
     }
 
 }

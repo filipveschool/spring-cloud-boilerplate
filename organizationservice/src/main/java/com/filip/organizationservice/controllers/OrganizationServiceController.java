@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping(value = "/v1/organizations")
 public class OrganizationServiceController {
@@ -40,6 +42,11 @@ public class OrganizationServiceController {
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteOrganization(@PathVariable("organizationId") String organizationId, @RequestBody Organization organization) {
         organizationService.deleteOrganization(organization);
+    }
+
+    @GetMapping(value = "/all")
+    public List<Organization> getAllOrganizations(){
+        return organizationService.getAllOrganizations();
     }
 
 }
