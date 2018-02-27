@@ -1,3 +1,9 @@
+configrepo
+
+.idea/**
+.idea/vcs.xml
+.idea/workspace.xml
+
 # Compiled class file
 *.class
 
