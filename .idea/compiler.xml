@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="authenticationservice" />
+        <module name="configrepo" />
+        <module name="configurationserver" />
+        <module name="eurekaserver" />
+        <module name="licensingservice" />
+        <module name="organizationservice" />
+        <module name="zuulserver" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="authenticationservice" target="1.8" />
+      <module name="configrepo" target="1.5" />
+      <module name="configurationserver" target="1.8" />
+      <module name="eurekaserver" target="1.8" />
+      <module name="licensingservice" target="1.8" />
+      <module name="organizationservice" target="1.8" />
+      <module name="zuulserver" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

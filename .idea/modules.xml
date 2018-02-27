@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/authenticationservice/authenticationservice.iml" filepath="$PROJECT_DIR$/authenticationservice/authenticationservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configrepo/configrepo.iml" filepath="$PROJECT_DIR$/configrepo/configrepo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configurationserver/configurationserver.iml" filepath="$PROJECT_DIR$/configurationserver/configurationserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/licensingservice/licensingservice.iml" filepath="$PROJECT_DIR$/licensingservice/licensingservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/organizationservice/organizationservice.iml" filepath="$PROJECT_DIR$/organizationservice/organizationservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuulserver/zuulserver.iml" filepath="$PROJECT_DIR$/zuulserver/zuulserver.iml" />
+    </modules>
+  </component>
+</project>
