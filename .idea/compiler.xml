@@ -26,6 +26,7 @@
       <module name="licensingservice" target="1.8" />
       <module name="notification-service" target="1.8" />
       <module name="organizationservice" target="1.8" />
+      <module name="statistics-service" target="1.8" />
       <module name="zuulserver" target="1.8" />
     </bytecodeTargetLevel>
   </component>

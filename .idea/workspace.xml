@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91e010b6-cd7e-4c57-bcc0-39affe0d8977" name="Default" comment="" />
+    <list default="true" id="91e010b6-cd7e-4c57-bcc0-39affe0d8977" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/clients/ExchangeRatesClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/controllers/StatisticsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/ExchangeRatesContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/Saving.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/TimePeriod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/timeseries/DataPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/timeseries/DataPointId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/timeseries/ItemMetric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/timeseries/StatisticMetric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/repository/DataPointRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/security/CustomUserInfoTokenServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/services/ExchangeRatesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/services/ExchangeRatesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/services/StatisticsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/services/StatisticsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistics-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statistics-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/statistics-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/StatisticsServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/StatisticsServiceApplication.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/zuulserver/target/" />
     <ignored path="$PROJECT_DIR$/eurekaserver/target/" />
     <ignored path="$PROJECT_DIR$/configurationserver/target/" />
@@ -11,6 +39,7 @@
     <ignored path="$PROJECT_DIR$/configrepo/target/" />
     <ignored path="$PROJECT_DIR$/notification-service/target/" />
     <ignored path="$PROJECT_DIR$/codesnippetsmaven/target/" />
+    <ignored path="$PROJECT_DIR$/statistics-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +49,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/notification-service/pom.xml">
+      <file leaf-file-name="CustomUserInfoTokenServices.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/security/CustomUserInfoTokenServices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="954">
-              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+            <state relative-caret-position="198">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatisticsServiceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/StatisticsServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotificationServiceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/NotificationServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/statistics-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="1" selection-end-line="53" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -34,11 +93,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="AnnotationType" />
+        <option value="JUnit4 Test Class" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -50,6 +109,8 @@
       <find>/oauth/token</find>
       <find>ResourceServer</find>
       <find>EnableResourceServer</find>
+      <find>ResourceServerTokenServices</find>
+      <find>hystrix</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -58,28 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/organizationservice/src/main/java/com/filip/organizationservice/service/OrganizationService.java" />
-        <option value="$PROJECT_DIR$/organizationservice/src/main/java/com/filip/organizationservice/controllers/OrganizationServiceController.java" />
-        <option value="$PROJECT_DIR$/organizationservice/src/main/resources/schema.sql" />
-        <option value="$PROJECT_DIR$/organizationservice/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/configurationserver/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/organizationservice/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/authenticationservice/pom.xml" />
-        <option value="$PROJECT_DIR$/organizationservice/src/main/java/com/filip/organizationservice/OrganizationServiceApplication.java" />
-        <option value="$PROJECT_DIR$/licensingservice/src/main/java/com/filip/licensingservice/LicensingServiceApplication.java" />
-        <option value="$PROJECT_DIR$/authenticationservice/src/main/java/com/filip/authenticationservice/AuthenticationServiceApplication.java" />
-        <option value="$PROJECT_DIR$/configrepo/authenticationservice/authenticationservice-dev.yml" />
-        <option value="$PROJECT_DIR$/configrepo/authenticationservice/authenticationservice-prod.yml" />
-        <option value="$PROJECT_DIR$/configrepo/authenticationservice/authentication-aws-dev.yml" />
-        <option value="$PROJECT_DIR$/configrepo/licensingservice/licensingservice-dev.yml" />
-        <option value="$PROJECT_DIR$/authenticationservice/src/main/resources/schema.sql" />
-        <option value="$PROJECT_DIR$/configrepo/authenticationservice/authenticationservice.yml" />
-        <option value="$PROJECT_DIR$/authenticationservice/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/configrepo/licensingservice/licensingservice.yml" />
-        <option value="$PROJECT_DIR$/configrepo/notificationservice/notificationservice.yml" />
-        <option value="$PROJECT_DIR$/configrepo/organizationservice/organizationservice.yml" />
-        <option value="$PROJECT_DIR$/configrepo/specialroutesservice/specialroutesservice.yml" />
-        <option value="$PROJECT_DIR$/licensingservice/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/authenticationservice/src/main/java/com/filip/authenticationservice/security/WebSecurityConfigurer.java" />
         <option value="$PROJECT_DIR$/licensingservice/src/main/java/com/filip/licensingservice/security/ResourceServerConfiguration.java" />
         <option value="$PROJECT_DIR$/organizationservice/src/main/java/com/filip/organizationservice/security/ResourceServerConfiguration.java" />
@@ -109,6 +148,28 @@
         <option value="$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/NotificationServiceApplication.java" />
         <option value="$PROJECT_DIR$/notification-service/src/test/java/com/filip/notificationservice/repository/RecipientRepositoryTest.java" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/TimePeriod.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/Currency.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/Item.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/Saving.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/Account.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/ExchangeRatesContainer.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/timeseries/StatisticMetric.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/timeseries/ItemMetric.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/timeseries/DataPointId.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/timeseries/DataPoint.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/repository/DataPointRepository.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/services/StatisticsService.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/services/ExchangeRatesService.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/services/ExchangeRatesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/services/StatisticsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/repository/converter/DataPointIdReaderConverter.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/clients/ExchangeRatesClient.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/security/CustomUserInfoTokenServices.java" />
+        <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/StatisticsServiceApplication.java" />
+        <option value="$PROJECT_DIR$/statistics-service/pom.xml" />
       </list>
     </option>
   </component>
@@ -262,6 +323,140 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statistics-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statistics-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statistics-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statistics-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statistics-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statistics-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="filip" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statistics-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="filip" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statistics-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="filip" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statistics-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="filip" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statistics-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="filip" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statistics-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="filip" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="timeseries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statistics-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="filip" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statistics-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="filip" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statistics-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="filip" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statistics-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -270,6 +465,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -284,7 +482,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.5414681" />
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
@@ -299,11 +497,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fvandeney\IdeaProjects\springcloud2ownexperiment\statistics-service\src\main\resources" />
       <recent name="C:\Users\fvandeney\IdeaProjects\springcloud2ownexperiment\configrepo\notificationservice" />
       <recent name="C:\Users\fvandeney\IdeaProjects\springcloud2ownexperiment\organizationservice\src\main\java\com\filip\organizationservice" />
       <recent name="C:\Users\fvandeney\IdeaProjects\springcloud2ownexperiment\licensingservice\src\main\java\com\filip\licensingservice" />
       <recent name="C:\Users\fvandeney\IdeaProjects\springcloud2ownexperiment\configurationserver\src\main\resources\config" />
-      <recent name="C:\Users\fvandeney\IdeaProjects\springcloud2ownexperiment\configurationserver\src\main\resources\config\licensingservice" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -372,6 +570,10 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.filip.organizationservice.OrganizationServiceApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
+    <configuration name="StatisticsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="statistics-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.filip.statisticsservice.StatisticsServiceApplication" />
+    </configuration>
     <configuration name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="zuulserver" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.filip.zuulserver.ZuulserverApplication" />
@@ -407,6 +609,7 @@
       <item itemvalue="Spring Boot.LicensingServiceApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.StatisticsServiceApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -426,12 +629,12 @@
       <updated>1519654462029</updated>
       <workItem from="1519654464813" duration="5846000" />
       <workItem from="1519719604880" duration="26551000" />
-      <workItem from="1519806267209" duration="845000" />
+      <workItem from="1519806267209" duration="5214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33242000" />
+    <option name="totallyTimeSpent" value="37611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -457,9 +660,10 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24228188" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24228188" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -468,7 +672,6 @@
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32905984" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Run Dashboard" order="1" visible="true" weight="0.32905984" />
@@ -517,155 +720,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/licensingservice/src/main/java/com/filip/licensingservice/clients/OrganizationRestTemplateClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/licensingservice/src/main/java/com/filip/licensingservice/model/Organization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/licensingservice/src/main/java/com/filip/licensingservice/utils/UserContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/licensingservice/src/main/java/com/filip/licensingservice/utils/UserContextFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/licensingservice/src/main/java/com/filip/licensingservice/utils/UserContextInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/licensingservice/src/main/java/com/filip/licensingservice/services/LicenseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1436">
-          <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.2.RELEASE/spring-security-config-5.0.2.RELEASE.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/licensingservice/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authenticationservice/src/main/java/com/filip/authenticationservice/security/OAuth2Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authenticationservice/src/main/java/com/filip/authenticationservice/security/WebSecurityConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="30" column="74" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuulserver/src/main/java/com/filip/zuulserver/ZuulserverApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/licensingservice/src/main/java/com/filip/licensingservice/security/ResourceServerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/organizationservice/src/main/java/com/filip/organizationservice/security/ResourceServerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuulserver/src/main/java/com/filip/zuulserver/filters/FilterUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuulserver/src/main/java/com/filip/zuulserver/filters/SpecialRoutesFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuulserver/src/main/java/com/filip/zuulserver/filters/TrackingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuulserver/src/main/java/com/filip/zuulserver/filters/ResponseFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/organizationservice/src/main/java/com/filip/organizationservice/OrganizationServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/organizationservice/src/main/java/com/filip/organizationservice/controllers/OrganizationServiceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configrepo/zuulservice/zuulservice.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zuulserver/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -907,16 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/NotificationServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notification-service/src/test/java/com/filip/notificationservice/repository/RecipientRepositoryTest.java" />
     <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/repository/RecipientRepository.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -949,6 +993,320 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="954">
           <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/TimePeriod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/Currency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/Saving.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="834">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/ExchangeRatesContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/timeseries/StatisticMetric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/timeseries/ItemMetric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="79" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/repository/converter/DataPointIdReaderConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/clients/ExchangeRatesClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/services/StatisticsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/repository/DataPointRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/timeseries/DataPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+            <element signature="e#1424#1425#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/model/timeseries/DataPointId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/services/ExchangeRatesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/controllers/StatisticsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/services/ExchangeRatesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/services/StatisticsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/security/CustomUserInfoTokenServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/NotificationServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/StatisticsServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="1" selection-end-line="53" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1029,11 +1387,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited>Maven: org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.0.0.RC2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.5414681" />
               </list>
             </option>
           </splitter-proportions>
