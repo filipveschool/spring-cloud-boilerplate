@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: statisticsservice
+  cloud:
+    config:
+      enabled: true
+  profiles:
+    active:
+      default
+eureka:
+  client:
+    enabled: false

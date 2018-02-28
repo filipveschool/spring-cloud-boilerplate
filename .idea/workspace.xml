@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91e010b6-cd7e-4c57-bcc0-39affe0d8977" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/ExchangeRatesContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/Saving.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/TimePeriod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/timeseries/StatisticMetric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/repository/DataPointRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/services/ExchangeRatesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/services/ExchangeRatesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/services/StatisticsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/services/StatisticsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/zuulserver/target/" />
     <ignored path="$PROJECT_DIR$/eurekaserver/target/" />
@@ -42,73 +51,29 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.5">
-          <split-first>
-            <leaf>
-              <file leaf-file-name="NotificationServiceApplication.java" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/NotificationServiceApplication.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="18">
-                      <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-                      <folding>
-                        <element signature="imports" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/statisticsservice/pom.xml">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-378" />
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="StatisticsServiceApplication.java" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/StatisticsServiceApplication.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="54">
-                      <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file leaf-file-name="NotificationServiceApplication.java" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/NotificationServiceApplication.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="144">
-                      <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-                      <folding>
-                        <element signature="imports" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/statisticsservice/pom.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="StatisticsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/controllers/StatisticsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="27" column="81" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExchangeRatesServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/services/ExchangeRatesServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -139,26 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/organizationservice/src/main/java/com/filip/organizationservice/security/ResourceServerConfiguration.java" />
-        <option value="$PROJECT_DIR$/zuulserver/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/configrepo/zuulservice/zuulservice.yml" />
-        <option value="$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/model/Frequency.java" />
-        <option value="$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/model/NotificationSettings.java" />
-        <option value="$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/model/NotificationType.java" />
-        <option value="$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/model/Recipient.java" />
-        <option value="$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/repository/RecipientRepository.java" />
-        <option value="$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/repository/converter/FrequencyWriterConverter.java" />
-        <option value="$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/repository/converter/FrequencyReaderConverter.java" />
-        <option value="$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/service/RecipientService.java" />
-        <option value="$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/service/EmailService.java" />
-        <option value="$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/service/EmailServiceImpl.java" />
-        <option value="$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/service/NotificationService.java" />
-        <option value="$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/client/AccountServiceClient.java" />
-        <option value="$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/service/NotificationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/service/RecipientServiceImpl.java" />
-        <option value="$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/controllers/RecipientController.java" />
-        <option value="$PROJECT_DIR$/notification-service/pom.xml" />
-        <option value="$PROJECT_DIR$/notification-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/notification-service/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/notification-service/src/test/java/com/filip/notificationservice/service/NotificationServiceImplTest.java" />
         <option value="$PROJECT_DIR$/notification-service/src/test/java/com/filip/notificationservice/service/RecipientServiceImplTest.java" />
@@ -188,8 +133,28 @@
         <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/security/CustomUserInfoTokenServices.java" />
         <option value="$PROJECT_DIR$/statistics-service/src/main/java/com/filip/statisticsservice/StatisticsServiceApplication.java" />
         <option value="$PROJECT_DIR$/statistics-service/pom.xml" />
-        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/StatisticsServiceApplication.java" />
         <option value="$PROJECT_DIR$/statisticsservice/pom.xml" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/services/ExchangeRatesService.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/services/StatisticsService.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/services/StatisticsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/repository/DataPointRepository.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/TimePeriod.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/Saving.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/Item.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/ExchangeRatesContainer.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/Currency.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/Account.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/timeseries/StatisticMetric.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/timeseries/ItemMetric.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/timeseries/DataPointId.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/timeseries/DataPoint.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/clients/ExchangeRatesClient.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/controllers/StatisticsController.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/security/CustomUserInfoTokenServices.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/StatisticsServiceApplication.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/services/ExchangeRatesServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -279,6 +244,84 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="filip" type="462c0819:PsiDirectoryNode" />
               <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="filip" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="clients" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="filip" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="filip" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="filip" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="timeseries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="filip" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="filip" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="filip" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud2ownexperiment" type="b2602c69:ProjectViewProjectNode" />
@@ -459,12 +502,12 @@
       <updated>1519654462029</updated>
       <workItem from="1519654464813" duration="5846000" />
       <workItem from="1519719604880" duration="26551000" />
-      <workItem from="1519806267209" duration="6196000" />
+      <workItem from="1519806267209" duration="8216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38593000" />
+    <option name="totallyTimeSpent" value="40613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -490,7 +533,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24228188" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24228188" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -550,227 +593,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/model/aa.java" />
-    <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/model/NotificationType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/model/NotificationSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/model/Recipient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/repository/converter/FrequencyWriterConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/repository/converter/FrequencyReaderConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/service/RecipientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/service/EmailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="96" selection-start-line="10" selection-start-column="96" selection-end-line="10" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/service/NotificationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/client/AccountServiceClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/controllers/RecipientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authenticationservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-363">
-          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
-          <folding>
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authenticationservice/src/main/java/com/filip/authenticationservice/AuthenticationServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification-service/src/test/java/com/filip/notificationservice/service/NotificationServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="70" column="87" selection-start-line="70" selection-start-column="87" selection-end-line="70" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/service/NotificationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="17" column="68" lean-forward="true" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/service/RecipientServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification-service/src/test/java/com/filip/notificationservice/service/RecipientServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2076">
-          <caret line="129" column="1" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1702#1703#0" expanded="true" />
-            <element signature="e#1756#1757#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/service/EmailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notification-service/src/test/java/com/filip/notificationservice/service/EmailServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-786">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notification-service/src/test/java/com/filip/notificationservice/repository/RecipientRepositoryTest.java" />
     <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/repository/RecipientRepository.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1110,6 +932,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/notification-service/src/main/java/com/filip/notificationservice/NotificationServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1120,17 +947,313 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/StatisticsServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statisticsservice/pom.xml">
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/services/ExchangeRatesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/services/StatisticsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/services/StatisticsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/repository/DataPointRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/TimePeriod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/Saving.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/ExchangeRatesContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/Currency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/timeseries/StatisticMetric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/timeseries/ItemMetric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/timeseries/DataPointId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/model/timeseries/DataPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1528#1529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/clients/ExchangeRatesClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/controllers/StatisticsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="27" column="81" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/security/CustomUserInfoTokenServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1651#1652#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1729#1730#0" expanded="true" />
+            <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+            <element signature="e#1889#1890#0" expanded="true" />
+            <element signature="e#1920#1921#0" expanded="true" />
+            <element signature="e#1973#1974#0" expanded="true" />
+            <element signature="e#2008#2009#0" expanded="true" />
+            <element signature="e#2078#2079#0" expanded="true" />
+            <element signature="e#2126#2127#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
+            <element signature="e#2194#2195#0" expanded="true" />
+            <element signature="e#2244#2245#0" expanded="true" />
+            <element signature="e#2286#2287#0" expanded="true" />
+            <element signature="e#2347#2348#0" expanded="true" />
+            <element signature="e#2390#2391#0" expanded="true" />
+            <element signature="e#3019#3051#0" expanded="true" />
+            <element signature="e#3363#3371#0" expanded="true" />
+            <element signature="e#3256#3288#0" expanded="true" />
+            <element signature="e#4217#4233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/StatisticsServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/filip/statisticsservice/services/ExchangeRatesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
         </state>
       </provider>
     </entry>
