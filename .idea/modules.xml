@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/licensingservice/licensingservice.iml" filepath="$PROJECT_DIR$/licensingservice/licensingservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/notification-service/notification-service.iml" filepath="$PROJECT_DIR$/notification-service/notification-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/organizationservice/organizationservice.iml" filepath="$PROJECT_DIR$/organizationservice/organizationservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statisticsservice/statistics-service.iml" filepath="$PROJECT_DIR$/statisticsservice/statistics-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuulserver/zuulserver.iml" filepath="$PROJECT_DIR$/zuulserver/zuulserver.iml" />
     </modules>
   </component>
