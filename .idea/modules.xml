@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/authenticationservice/authenticationservice.iml" filepath="$PROJECT_DIR$/authenticationservice/authenticationservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codesnippetsmaven/codesnippetsmaven.iml" filepath="$PROJECT_DIR$/codesnippetsmaven/codesnippetsmaven.iml" />
       <module fileurl="file://$PROJECT_DIR$/configrepo/configrepo.iml" filepath="$PROJECT_DIR$/configrepo/configrepo.iml" />
       <module fileurl="file://$PROJECT_DIR$/configurationserver/configurationserver.iml" filepath="$PROJECT_DIR$/configurationserver/configurationserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />

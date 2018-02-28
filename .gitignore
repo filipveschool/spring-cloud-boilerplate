@@ -1,5 +1,7 @@
 configrepo
 
+.idea\**
+
 .idea/**
 .idea/vcs.xml
 .idea/workspace.xml
@@ -28,3 +30,6 @@ configrepo
 hs_err_pid*
 .idea/workspace.xml
 .idea/misc.xml
+.idea/compiler.xml
+.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_0_BUILD_SNAPSHOT.xml
+.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_0_BUILD_SNAPSHOT.xml
